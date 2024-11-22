@@ -73,7 +73,7 @@ setInterval( async () => {
 
     try{
         ltcPrice.innerText = await getPrice('litecoin');
-        dogePrice.innerText = await getPrice('doge');
+        dogePrice.innerText = await getPrice('dogecoin');
         
     }catch(e){
         console.log(e)
